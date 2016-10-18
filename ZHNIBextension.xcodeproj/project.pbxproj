@@ -15,6 +15,7 @@
 		CD323A351DB607E500F128B2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD323A331DB607E500F128B2 /* LaunchScreen.storyboard */; };
 		CD323A401DB607E500F128B2 /* ZHNIBextensionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CD323A3F1DB607E500F128B2 /* ZHNIBextensionTests.m */; };
 		CD323A4B1DB607E500F128B2 /* ZHNIBextensionUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CD323A4A1DB607E500F128B2 /* ZHNIBextensionUITests.m */; };
+		CD323A5A1DB6080300F128B2 /* UIView+ZHNIBadd.m in Sources */ = {isa = PBXBuildFile; fileRef = CD323A591DB6080300F128B2 /* UIView+ZHNIBadd.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		CD323A461DB607E500F128B2 /* ZHNIBextensionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZHNIBextensionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD323A4A1DB607E500F128B2 /* ZHNIBextensionUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZHNIBextensionUITests.m; sourceTree = "<group>"; };
 		CD323A4C1DB607E500F128B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD323A581DB6080300F128B2 /* UIView+ZHNIBadd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+ZHNIBadd.h"; sourceTree = "<group>"; };
+		CD323A591DB6080300F128B2 /* UIView+ZHNIBadd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ZHNIBadd.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				CD323A291DB607E500F128B2 /* AppDelegate.m */,
 				CD323A2B1DB607E500F128B2 /* ViewController.h */,
 				CD323A2C1DB607E500F128B2 /* ViewController.m */,
+				CD323A581DB6080300F128B2 /* UIView+ZHNIBadd.h */,
+				CD323A591DB6080300F128B2 /* UIView+ZHNIBadd.m */,
 				CD323A2E1DB607E500F128B2 /* Main.storyboard */,
 				CD323A311DB607E500F128B2 /* Assets.xcassets */,
 				CD323A331DB607E500F128B2 /* LaunchScreen.storyboard */,
@@ -273,6 +278,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD323A5A1DB6080300F128B2 /* UIView+ZHNIBadd.m in Sources */,
 				CD323A2D1DB607E500F128B2 /* ViewController.m in Sources */,
 				CD323A2A1DB607E500F128B2 /* AppDelegate.m in Sources */,
 				CD323A271DB607E500F128B2 /* main.m in Sources */,
